@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1627050827 source:c:\users\hung\desktop\ontapltcb2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1627046456 c:\users\hung\desktop\ontapltcb2\p8_b2.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

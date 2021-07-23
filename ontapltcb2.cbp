@@ -41,6 +41,8 @@
 		<Unit filename="p5.h" />
 		<Unit filename="p6.h" />
 		<Unit filename="p7.h" />
+		<Unit filename="p8_b1.h" />
+		<Unit filename="p8_b2.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
