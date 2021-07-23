@@ -61,10 +61,11 @@ void bai2()
 }
 
 void bai3() {
-
+    // đây là comment của dương
+    printf("hello world");
 }
 
 int main()
 {
-    bai2();
+    bai3();
 }
