@@ -1,0 +1,117 @@
+BÀI TẬP TỔNG HỢP C
+
+1.	BÀI TẬP VỀ XUẤT NHẬP DỮ LIỆU CƠ BẢN TRONG C
+Bài 1: Viết chương trình nhập vào một số x bất kỳ và in ra giá trị x2, x3, x4
+Bài 2: Viết chương trình nhập vào từ bàn phím số nguyên biểu diễn ngày, tháng, năm và xuất ra màn hình dưới dạng “dd/mm/yyyy”. Ví dụ: Hôm nay là ngày 12/4/2019
+Bài 3: Viết chương trình đọc và 2 số nguyên và in ra kết quả của phép (+), phép trừ (-), phép nhân (*), phép chia (/). Nhận xét kết quả chia 2 số nguyên.
+Bài 4: Viết chương trình nhập vào bán kính hình cầu, tính và in ra diện tích, thể tích của hình cầu đó. (Gợi ý: S = 4πR2 và V = (4/3)πR3)
+ 
+2.	BÀI TẬP PHẦN IF, SWITCH…CASE
+Bài 1: Viết chương trình giải phương trình bậc hai: ax2 + bx + c = 0, với a, b, c là các hệ số thực nhập vào từ bàn phím.
+Bài 2: Viết chương trình giải hệ phương trình tuyến tính bậc nhất hai ẩn:
+ax + by = c
+dx + ey = f
+với các hệ số thực a, b, c, d, e, f được nhập vào từ bàn phím.
+Bài 3: Nhập vào từ bàn phím một điểm số bất kì. Kiểm tra xem ứng với điểm số đó sẽ xếp loại gì ?
+ĐTB<5: Yếu
+5<=DTB<7: TB
+7<=DTB<8: Khá
+8<=DTB<9: Giỏi
+ĐTB>9: Xuất sắc
+Bài 4: Viết chương trình nhập vào ba số a, b, c. Sau đó kiểm tra xem ba số này có tạo thành cạnh của tam giác hay không. Nếu là tam giác thì kiểm tra xem đó là loại tam giác nào trong số các loại sau: vuông, vuông cân, cân, đều, tam giác thường.
+Bài 5: Viết chương trình nhập vào 2 số là năm và tháng, kiểm tra tháng đó có bao nhiêu ngày. In kết quả ra màn hình theo dạng: Tháng 3 năm 2014 có 31 ngày.
+ 
+3.	BÀI TẬP VỀ CÁC CÂU LỆNH LẶP FOR, WHIE, DO…WHILE
+Bài 1: Tính tổng của 10 số nguyên bất kì được nhập vào từ bàn phím
+Bài 2: Kiểm tra một số có phải là số nguyên tố hay không
+Bài 3: In ra các số dương chẵn từ 1 đến 20 trên cùng 1 dòng, cách nhau bởi một tab.
+Bài 4: Tìm tổng của các số lẻ từ 1 -> 100
+Bài 5: Viết chương trình nhập vào số n và in ra các ước của số n đó.
+Bài 6: Tìm ước chung lớn nhất, bội chung nhỏ nhất của một số nguyên được nhập vào từ bàn phím
+Bài 6: Viết chương trình kiểm tra 1 số có là số hoàn hảo không? (Số hoàn hảo là số nguyên dương có tổng các ước bằng 2 lần nó. 
+(VD số 6 có các ước 1, 2, 3, 6 và tổng 1 + 2 + 3 + 6 = 12 (bằng 2 lần 6)).
+Bài 7: Viết chương trình tính S = 1 + 1/2 + 1/3 + … + 1/N
+Bài 8: Tính giá trị giai thừa: n!. Trong đó n nhập vào từ bàn phím. In kết quả ra màn hình.
+Bài 9: Tính tổng: 					Với giá trị của n nhập vào từ bàn phím.
+Bài 10: Viết chương trình tính số thứ n của dãy fibonaci biết dãy f(n) = f(n-1) + f(n-2), n > 2 và f(1) = 1, f(2) = 1.
+Bài 11: Viết chương trình đổi một số nguyên dương n nhập vào từ bàn phím sang dạng biểu diễn ở các cơ số: 2, 8, 16.
+Bài 12: Viết chương trình tính hàm   , với x và độ chính xác Eps thực nhập vào từ bàn phím, tức là tính cho đến khi nào   thì dừng. In kết quả ra màn hình.
+Bài 13: Viết chương trình tính   , với giá trị x và độ chính xác eps nhập vào tự bàn phím, tức là tinh đến khi nào  <eps thì dừng. In kết quả tính được ra màn hình theo dạng: e mu x = y.
+Bài 14: Viết chương trình nhập vào tổng thu nhập GDP của nước ta năm 2014 (tính theo USD) và tốc độ tăng trưởng kinh tế bình quân nào đó. In ra màn hình thu nhập GDP của các năm theo dạng:
+	Năm	GDP
+	2014	125
+	2015	137.5
+	. . .	. . .
+cho đến năm có GDP > 2 lần năm 2014 thì dừng. 
+Bài 15:  Một người gửi tiết kiệm không kì hạn với số tiền A đồng với lãi suất 0.45% mỗi tháng. Hỏi sau n tháng, người đó sẽ rút được bao nhiêu tiền? Biết rằng với việc gửi tiết kiệm không kì hạn thì lãi được cộng vào vốn theo từng tháng. 
+
+4.	BÀI TẬP VỀ MẢNG MỘT CHIỀU
+Bài 1: Khai báo mảng số nguyên có 10 phần tử. In mảng đó ra màn hình theo hàng ngang.
+Bài 2: In mảng theo chiều đảo ngược
+Bài 3: Nhập vào một mảng số nguyên. Tìm tổng của tất cả các số trong mảng đó, tìm tổng các số nguyên dương, tổng của các số nguyên âm. Tìm trung bình cộng của cả mảng, trung bình cộng của các số nguyên dương, trung bình cộng của các số nguyên âm
+Bài 4: Tìm phần tử lớn nhất, bé nhất trong mảng kèm vị trí
+Bài 5: Cho biết phần tử x xuất hiện bao nhiêu lần trong mảng, với x do người dùng nhập vào.
+Bài 6: Thay thế các phần tử có giá trị âm trong mảng bằng giá trị = 0
+Bài 7: Nhập vào một mảng bất kì. Sắp xếp mảng đó theo thứ tự tăng dần
+Bài 8: Ghép hai mảng số nguyên đã sắp xếp theo chiều tăng dần thành một mảng mới cũng được sắp xếp theo chiều tăng dần mà không cần phải sắp xếp lại
+ 
+5.	BÀI TẬP VỀ MẢNG HAI CHIỀU
+Bài 1: Khai báo mảng hai chiều có kích thước 3x3. In mảng ra màn hình theo hai trường hợp: 
+-	TH 1: giá trị các phần tử mảng được khai báo khi khai báo mảng, 
+-	TH 2: giá trị các phần tử của mảng được nhập vào từ bàn phím
+Bài 2:  Tính tổng của hai ma trận
+Bài 3: Tính tích hai ma trận: Cnxp = Anxm  Bmxp. In các ma trận ra màn hình.
+Bài 4:
+	Viết chương trình nhập vào số nguyên dương n. Sau đó in ra màn hình ma trận xoáy Anxn , theo dạng sau: 
+		1	2	3
+		8	9	4
+		7	6	5   với n=3
+
+ 
+6.	BÀI TẬP VỀ PHẦN HÀM
+Bài 1: Tạo hàm để tính giá trị của xy
+Bài 2: Tạo hàm đệ quy để tính giá trị của n!
+Bài 3: Tạo hàm đệ quy để tính phần tử thứ n trong dãy Fibonacci
+Bài 4: Tổ chức lại bài toán tìm tổng, tìm tích của hai ma trận bằng cách sử dụng hàm in ma trận, hàm nhập ma trận
+Bài 5: Viết chương trình con đổi một số nguyên dương ở hệ thập phân sang dạng biểu diễn ở cơ số a. Sau đó gọi hàm để đổi một số nhập vào từ bàn phím sang dạng biểu diễn ở các cơ số: 2, 8, 16.
+Bài 6: Viết chương trình gồm có một hàm nhập vào các hệ số của một đa thức, một hàm tính giá trị của đa thức, một hàm in các hệ số của đa thức. Sau đó: nhập vào các hệ số của hai đa thức: P=anxn + an-1xn-1 + . . . + a1x + a0 ; Q=bmxm + bm-1xm-1 + . . . + b1x + b0 , nhập giá trị x; tính hệ số của đa thức tổng T = P + Q; in ra hệ số của ba đa thức, in ra giá trị x, in ra giá trị của ba đa thức.
+ 
+7.	BÀI TẬP VỀ CON TRỎ
+Bài 1: Hoán đổi giá trị a và b sử dụng con trỏ
+Bài 2: Khai báo mảng số nguyên có 10 phần tử. In mảng đó ra màn hình theo hàng ngang.
+Bài 3: Viết chương trình tìm phần tử có giá trị nhỏ nhất và lớn nhất trong mảng một chiều
+Bài 4: Nhập vào một mảng bất kì. Sắp xếp mảng đó theo thứ tự tăng dần
+ 
+8.	BÀI TẬP VỀ STRUCT, DANH SÁCH LIÊN KẾT
+Bài 1: Viết chương trình nhập vào số liệu bán hàng với n mặt hàng có cấu trúc gồm các thành phần: Tên hàng, đơn giá, số lượng, thành tiền (= số lượng * đơn giá). Sau đó hiện thông báo lên màn hình theo dạng:
+	SO LIEU BAN HANG
+	STT	Ten Hang	Don gia	So luong	Thanh tien
+	1	Sach	5	100	500
+	2	But	2	300	600
+				Tong tien	1100
+ (Khi đã viết xong, viết thêm đoạn sắp xếp theo vần của tên hàng, rồi mới hiện thông báo ra màn hình)
+Bài 2: Viết chương trình tạo ra một danh sách liên kết thuận để ghi danh sách các sinh viên có cấu trúc bản ghi gồm các trường: Ho_ten, Tuoi, Diem_TB.
+- In danh sách ra màn hình theo dạng:
+	DANH SACH SINH VIEN
+STT	Ho ten	Tuoi	Diem TB
+. . .	. . .
+- Chèn thêm một sinh viên (nhập vào từ bàn phím) vào trước sinh viên nào đó (có tên nhập vào từ bàn phím), rồi in lại danh sách theo dạng trên.
+- Loại bỏ một sinh viên nào đó (có tên nhập vào từ bàn phím), rồi in lại danh sách theo dạng trên.
+
+ 
+9.	BÀI TẬP VỀ TỆP
+Bài 1: Viết chương trình tính tổng hai ma trận: Cnxm = Anxm + Bnxm. Các ma trận A, B được nhập vào từ bàn phím. Ghi ba ma trận vào tệp CONG_MT.C (sử dụng kiểu nhập xuất văn bản), rồi mở tệp này ra để xem kết quả.
+Bài 2:  Viết chương trình tính tích hai ma trận: Cnxm = Anxp  Bpxm. Trong đó dữ liệu về: n, p, m và hai ma trận A, B được ghi trên tệp TICH_MT.C. Ghi bổ sung ma trận tích tính được vào cuối tệp này (sử dụng kiểu nhập xuất văn bản), rồi mở nó ra để xem kết quả. 
+Bài 3: Viết chương trình sử dụng kiểu nhập xuất nhị phân với tệp có tên là SO_LIEU.C. Số liệu bán hàng có cấu trúc gồm các thành phần: Ten_hang, Don_gia, So_luong, Thanh_tien (= So_luong * Don_gia). Sau đó hiện nội dung tệp lên màn hình theo dạng: 
+	SO LIEU BAN HANG
+	STT	Ten Hang	Don gia	So luong	Thanh tien
+	1	Sach	5	100	500
+	2	But	2	300	600
+				Tong tien	1100
+Bài 4: Viết chương trình sử dụng kiểu nhập xuất nhị phân với tệp có tên là DSACH.C để ghi danh sách các sinh viên có cấu trúc gồm các thành phần: Ho_ten, Tuoi, Diem_TB.
+-	Hiện nội dung tệp lên màn hình theo dạng:
+	DANH SACH SINH VIEN
+STT	Ho ten	Tuoi	Diem TB
+. . .	. . .
+- 	Bổ sung thêm một sinh viên (nhập vào từ bàn phím) vào cuối tệp, rồi in lại danh sách theo dạng trên.
+- 	Sửa lại tuổi và điểm trung bình của một sinh viên nào đó (có tên nhập vào từ bàn phím), rồi in lại danh sách theo dạng trên.
