@@ -88,3 +88,7 @@ void bai3()
     }
     fclose(f);
 }
+
+void bai4() {
+    // lười nên không làm
+}
