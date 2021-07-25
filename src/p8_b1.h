@@ -14,7 +14,7 @@ Hang *nhapHang(int *n)
     system("cls");
     printf("nhap so luong: ");
     scanf("%d", n);
-    Hang *hangs = malloc(*n * sizeof(Hang));
+    Hang *hangs = (Hang*)malloc(*n * sizeof(Hang));
     for (int i = 0; i < *n; i++)
     {
         printf("-----------------------\n");
