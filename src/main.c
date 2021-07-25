@@ -1,6 +1,5 @@
-//#include "p9.h"
+#include "p8_b1.h"
 
-int main()
-{
-//    bai3();
+int main() {
+    bai1();
 }
