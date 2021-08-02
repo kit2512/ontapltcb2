@@ -1,5 +1,5 @@
-#include "p8_b1.h"
+#include "p4.h"
 
 int main() {
-    bai1();
+    bai8();
 }

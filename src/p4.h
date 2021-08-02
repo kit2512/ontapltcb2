@@ -5,7 +5,7 @@ void bai1()
     int arr[100];
     for (int i = 0; i < 10; i++)
     {
-        printf("nhap a[%d]: ");
+        printf("nhap a[%d]: ", i);
         scanf("%d", &arr[i]);
     }
     for (int i = 0; i < 10; i++)
@@ -20,7 +20,7 @@ void bai2()
     scanf("%d", &n);
     for (int i = 0; i < n; i++)
     {
-        printf("nhap a[%d]: ");
+        printf("nhap a[%d]: ", i);
         scanf("%d", &arr[i]);
     }
     for (int i = n - 1; i >= 0; i--)
@@ -168,7 +168,8 @@ void bai8()
         scanf("%d", &arr2[i]);
     }
 
-    int result[100], nResult, index1 = 0, index2 = 0;
+    int result[100], nResult = 0, index1 = 0, index2 = 0;
+
     while (index1 < n1 && index2 < n2)
     {
         if (arr1[index1] < arr2[index2])
